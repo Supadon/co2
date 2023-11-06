@@ -3,39 +3,48 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import './Nav.css'
 
 
-function nav() {
+
+function navbar() {
   return (
-    <Navbar  variant="dark" expand="lg" style={{ marginBottom: '20px' , backgroundColor:'#6A6F4C'}}>
+    <>
+    <Navbar  variant="dark" expand="lg" style={{backgroundColor:'#6A6F4C'}}>
     <Container>
       <Navbar.Brand href="#home" style={{float:'left'}}>
         <img
           alt=""
-          src="/src/assets/logo.png" // Replace with your logo image path
-          width="230"
-          height="150"
+          src="/src/assets/logo2.png" // Replace with your logo image path
+          width={80}
           className="d-inline-block align-top"
+          style={{paddingRight: 20}}
         />
         <div style={{float:'right'}}>
-          <h1 className='fontband' style={{fontSize: 100}} >
+          <h1 className='fontband' style={{fontSize: 50}} >
           ENGRAVE
           </h1>
-          <p style={{paddingLeft:50 , lineHeight:0 , fontSize: 30}}>
+          <p style={{paddingLeft:50 , lineHeight:0 , fontSize: 20}}>
           Zero Carbon Architechure
           </p>
         </div>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      {/* <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
-          <Nav.Link href="#home">Homepage</Nav.Link>
-          <Nav.Link href="#design">Design</Nav.Link>
-          <Nav.Link href="#register">Register</Nav.Link>
-          <Nav.Link href="#contact">Contact us</Nav.Link>
-        </Nav>
-      </Navbar.Collapse> */}
     </Container>
   </Navbar>
+  <Nav defaultActiveKey="/home" as="ul" style={{backgroundColor:'#A58E74'}}>
+      <Nav.Item as="li">
+        <Nav.Link style={{color:'#fff', fontSize:25}} className='fonttab' href="/">Homepage</Nav.Link>
+      </Nav.Item>
+      <Nav.Item as="li">
+        <Nav.Link style={{color:'#fff', fontSize:25}} className='fonttab' href="design">Design</Nav.Link>
+      </Nav.Item>
+      <Nav.Item as="li">
+        <Nav.Link style={{color:'#fff', fontSize:25}} className='fonttab' href="register">Register</Nav.Link>
+      </Nav.Item>
+      <Nav.Item as="li">
+        <Nav.Link style={{color:'#fff', fontSize:25}} className='fonttab' href="contact">Contact US</Nav.Link>
+      </Nav.Item>
+    </Nav>
+  </>
   )
 }
 
-export default nav
+export default navbar
