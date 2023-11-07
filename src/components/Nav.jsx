@@ -7,7 +7,7 @@ import './Nav.css'
 function navbar() {
   return (
     <>
-    <Navbar  variant="dark" expand="lg" style={{backgroundColor:'#6A6F4C'}}>
+    <Navbar  variant="dark" expand="lg" style={{ background: 'linear-gradient(45deg, rgba(106, 111, 76, 1) 70%, rgba(61, 62, 56, 0.54) 20%, rgba(225, 233, 177, 0.54) 10%)'}}>
     <Container>
       <Navbar.Brand href="#home" style={{float:'left'}}>
         <img

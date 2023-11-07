@@ -10,7 +10,7 @@ function Register() {
     <>
     <Navbar />
     <div style={{backgroundColor:"#FFF6F3"}}>
-    <Container className="d-flex justify-content-center align-items-center" style={{ height: '80vh', marginBottom:'0' }}>
+    <Container className="d-flex justify-content-center align-items-center" style={{ height: '85vh', marginBottom:'0' }}>
       <Form style={{ width: '400px' }}>
         <h2 className="text-center mb-3 fontform" style={{fontSize:'35px'}}>Sign up to your account</h2>
 
