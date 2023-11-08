@@ -14,7 +14,7 @@ function Contact() {
       <div style={{ backgroundColor: '#FFF6F3' }}>
         <Container className="d-flex flex-column align-items-center" style={{ minHeight: '30vh', paddingBottom: '10px' }}>
           <div className='mt-auto w-100 text-center'>
-            <img src={logo} />
+            <img src={logo} />  
           </div>
           <div>
             <p className='text-center fonttab' style={{ fontSize: '25px' }}>
