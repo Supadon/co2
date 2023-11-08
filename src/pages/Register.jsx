@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/nav'
+import Headter from '../components/Headter';
 import { Container, Form, Button } from 'react-bootstrap';
 import './Register.css'
 
@@ -8,7 +8,7 @@ import './Register.css'
 function Register() {
   return (
     <>
-    <Navbar />
+    <Headter />
     <div style={{backgroundColor:"#FFF6F3"}}>
     <Container className="d-flex justify-content-center align-items-center" style={{ height: '85vh', marginBottom:'0' }}>
       <Form style={{ width: '400px' }}>

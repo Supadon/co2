@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import Navbar from '../components/nav'
+import Headter from '../components/Headter';
 import logo from '../assets/logo3.png'
 import '../pages/Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,7 +10,7 @@ import { faLine } from '@fortawesome/free-brands-svg-icons';
 function Contact() {
   return (
     <>
-      <Navbar />
+      <Headter />
       <div style={{ backgroundColor: '#FFF6F3' }}>
         <Container className="d-flex flex-column align-items-center" style={{ minHeight: '30vh', paddingBottom: '10px' }}>
           <div className='mt-auto w-100 text-center'>

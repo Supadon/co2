@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/nav'
+import Headter from '../components/Headter';
 import './Homepage.css'
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselImage1 from '../assets/1.png';
@@ -12,7 +12,7 @@ import CarouselImage4 from '../assets/4.png';
 function Homepage() {
 return (
   <>
-  <Navbar />
+ <Headter />
   <div>
   <Carousel>
     <Carousel.Item>

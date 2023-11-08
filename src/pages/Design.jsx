@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/nav'
+import Headter from '../components/Headter';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Desing1 from '../assets/Rectangle19.png'
@@ -9,7 +9,7 @@ import '../pages/Design.css'
 function Design() {
   return (
     <>
-    <Navbar />
+    <Headter />
 <div style={{display: 'flex', justifyContent: 'center', flexWrap:'wrap', gap:'2rem', paddingTop:'50px', paddingBottom:'100px' , backgroundColor:"#FFF6F3"}}>
 <Card style={{ width: '30rem', position: 'relative' , borderRadius:20 }}>
   <Card.Img variant="top" src={Desing1} style={{ borderRadius: 20 }} />

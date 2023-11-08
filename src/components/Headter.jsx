@@ -2,9 +2,7 @@ import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import './Nav.css'
 
-
-
-function navbar() {
+function Headter() {
   return (
     <>
     <Navbar  variant="dark" expand="lg" style={{ background: 'linear-gradient(45deg, rgba(106, 111, 76, 1) 70%, rgba(61, 62, 56, 0.54) 20%, rgba(225, 233, 177, 0.54) 10%)'}}>
@@ -47,4 +45,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Headter
