@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../components/nav'
-import Nav from 'react-bootstrap/Nav';
 import './Homepage.css'
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselImage1 from '../assets/1.png';

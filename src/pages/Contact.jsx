@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import Navbar from '../components/Nav'
+import Navbar from '../components/nav'
 import logo from '../assets/logo3.png'
 import '../pages/Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
